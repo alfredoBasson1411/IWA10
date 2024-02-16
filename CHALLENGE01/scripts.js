@@ -93,3 +93,4 @@ console.log('Last holiday of the year:', formatDate(lastHolidayDate));
 const randomIndex = Math.floor(Math.random() * Object.keys(holidays).length);
 const randomHolidayDate = new Date(holidays[randomIndex].date);
 console.log('Randomly selected holiday date:', formatDate(randomHolidayDate));
+//
